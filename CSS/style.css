@@ -1,0 +1,38 @@
+.rounded{
+    border-radius: 50%;
+ }
+.header-navbar {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+  }
+.header-navbar a {
+    color: #123C69;
+    padding: 14px 20px;
+    font-weight: 200;
+    text-decoration: none;
+  }
+.header-navbar a:hover {
+    color: #2470C1;
+    text-decoration: underline;
+  }
+.header-navbar a:active {
+    text-decoration: underline;
+}
+.header{
+    margin-right: auto;
+    font-size: 2em;
+    font-weight: 200;
+ }
+ #navigation a.current{
+    text-decoration: underline;
+}
+ body{
+    font-family: "IMB Plex Sans Arabic", sans-serif;
+ }
+
+
+ 
