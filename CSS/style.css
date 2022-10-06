@@ -1,37 +1,93 @@
 .rounded{
     border-radius: 50%;
  }
-.header-navbar {
+.header-navbar{
     padding: 1em;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    color: black;
   }
-.header-navbar a {
+.header-navbar a{
     color: #123C69;
     padding: 14px 20px;
-    font-weight: 200;
+    font-weight: 300;
     text-decoration: none;
   }
-.header-navbar a:hover {
+.header-navbar a:hover{
     color: #2470C1;
     text-decoration: underline;
   }
-.header-navbar a:active {
+.header-navbar a:active{
     text-decoration: underline;
 }
 .header{
     margin-right: auto;
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 300;
  }
  #navigation a.current{
+  
     text-decoration: underline;
+}
+.a:link{
+    color: #123C69;
+    font-weight: 600;
+    text-decoration: none;
+}
+.a:hover{
+    color: #2470C1;
+    text-decoration: underline;
+}
+.a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+.corpus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.points{
+    display: flex;
+    flex: 1 1 0;
+    width: 0;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-right: auto;
+}
+.heading{
+    font-size: 2em;
+    font-weight: 500;
+    color: #123C69;
+    text-align: center;
+}
+.big{
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #123C69;
+    line-height: 150%;
+
+}
+ul.no-bullets{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
  body{
     font-family: "IMB Plex Sans Arabic", sans-serif;
+ }
+ h1{
+  
+ }
+ p{
+  padding-left: 60px;
+  font-size: 1em;
+  font-weight: 300;
+  color: #123C69;
+  line-height: 150%;
  }
 
 
